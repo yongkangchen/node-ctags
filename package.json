@@ -24,7 +24,7 @@
     "url": "https://github.com/atom/node-ctags/issues"
   },
   "homepage": "http://atom.github.io/node-ctags",
-  "main": "./lib/ctags",
+  "main": "./lib/ctags.coffee",
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-coffee": "~0.9.0",
