@@ -6,10 +6,7 @@ environment:
 install:
   # Get the latest stable version of Node.js or io.js
   - ps: Update-NodeJsInstallation (Get-NodeJsLatestBuild $env:nodejs_version)
-  - npm -g install npm
-  - set PATH=%APPDATA%\npm;%PATH%
-  # install modules
-  - npm install
+  - npm install --build-from-source --msvs_version=2013
 
 # Post-install test scripts.
 test_script:
