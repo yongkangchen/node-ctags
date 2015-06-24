@@ -24,7 +24,7 @@
     "url": "https://github.com/yongkangchen/node-ctags/issues"
   },
   "homepage": "https://github.com/yongkangchen/node-ctags",
-  "main": "./lib/ctags",
+  "main": "./src/ctags",
   "dependencies": {
     "nan": "https://atom.io/download/atom-shell/nan-1.6.1.tgz",
     "event-stream": "~3.1.0"
