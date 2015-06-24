@@ -1,4 +1,4 @@
-{Tags} = require('../build/Release/ctags.node')
+{Tags} = require(process.resourcesPath + '/app.asar.unpacked/node_modules/symbols-view/node_modules/ctags/build/Release/ctags.node')
 es = require 'event-stream'
 
 exports.findTags = (tagsFilePath, tag, options, callback) ->
